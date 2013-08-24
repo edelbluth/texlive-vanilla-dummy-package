@@ -1,11 +1,12 @@
 Section: misc
 Priority: optional
+Homepage: https://github.com/edelbluth/texlive-vanilla-dummy-package
 Standards-Version: 3.9.2
 
 Package: texlive-local
-Version: 2013-1~3
+Version: 2013-1~4
 Maintainer: Juergen Edelbluth <dev@jued.de>
-Provides: 
+Provides:
  biber,
  biblatex, 
  biblatex-dw,
@@ -147,6 +148,8 @@ Provides:
  texlive-lang-other,
  texlive-lang-tibetan
 Architecture: all
-Description: Local vanilla installation of TeX Live 2013.
- Vanilla TeXlive 2013, scheme-full. See http://tug.org/texlive/debian#vanilla
- for details. Github: https://github.com/edelbluth/texlive-vanilla-dummy-package
+Description: Vanilla installation of TeXlive 2013 full.
+ This is just a dummy package to make Debian/Mint/Ubuntu think,
+ that TeXlive is already installed successfully. This allows you
+ to install TeX dependent applications without getting the old
+ TeXlive stuff from the repositories.

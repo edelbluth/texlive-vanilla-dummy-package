@@ -7,7 +7,7 @@ build:
 	equivs-build texlive-vanilla.control
 
 install:
-	sudo dpkg -i texlive-local_2013-1~3_all.deb
+	sudo dpkg -i texlive-local_2013-1~4_all.deb
 
 clean:
 	rm -f *.deb
