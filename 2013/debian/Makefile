@@ -13,4 +13,4 @@ clean:
 	rm -f *.deb
 
 uninstall:
-	sudo apt-get -y remove texlive-vanilla
+	sudo apt-get -y remove texlive-local
