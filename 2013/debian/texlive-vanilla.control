@@ -3,9 +3,10 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: texlive-vanilla
-Version: 2013-1~1
+Version: 2013-1~2
 Maintainer: Juergen Edelbluth <dev@jued.de>
 Provides: 
+ biber,
  biblatex, 
  biblatex-dw,
  cm-super,
@@ -31,7 +32,6 @@ Provides:
  latex-sanskrit,
  latex-xcolor,
  lcdf-typetools,
- lmodern,
  musixlyr,
  musixtex,
  pgf,
