@@ -2,4 +2,4 @@ language: c
 install:
   cd 2013/debian && make prereq
 script:
-  cd 2013/debian && make build && make install
+  make build && make install
