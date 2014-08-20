@@ -1,11 +1,5 @@
 language: c
 install:
-  cd 2013/debian && make prereq
-  cd ../..
-  cd 2014/debian && make prereq
-  cd ../..
+	./build.sh install
 script:
-  cd 2013/debian && make build && make install
-  cd ../..
-  cd 2014/debian && make build && make install
-  cd ../..
+	./build.sh script
