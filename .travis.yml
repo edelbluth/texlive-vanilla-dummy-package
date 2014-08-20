@@ -1,5 +1,5 @@
 language: c
 install:
-	./build.sh install
+    ./build.sh install
 script:
-	./build.sh script
+    ./build.sh script
