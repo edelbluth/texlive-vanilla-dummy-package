@@ -148,7 +148,7 @@ Provides:
  texlive-lang-other,
  texlive-lang-tibetan
 Architecture: all
-Description: Vanilla installation of TeXlive 2013 full.
+Description: Vanilla installation of TeXlive 2015 full.
  This is just a dummy package to make Debian/Mint/Ubuntu think,
  that TeXlive is already installed successfully. This allows you
  to install TeX dependent applications without getting the old
